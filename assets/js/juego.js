@@ -4,9 +4,7 @@ const miModulo = (() => {
 
     let deck = [];
     const tipos = ['C', 'D', 'H', 'S'], especiales = ['A', 'J', 'Q', 'K'];
-
-    // let puntosJugador = 0,
-    //     puntosComputadora = 0;
+    
     let puntosJugadores = [];
 
 // Referencias HTML:
@@ -80,9 +78,9 @@ const miModulo = (() => {
             if (puntosMinimos > 21) {
                 alert('Perdiste! Mejor suerte para la próxima mi rey. 😁😁 att: La PC 😏');
             } else if (puntosComputadora === puntosMinimos) {
-                alert('Empate! 😱 estuvo bastante reñido.')
+                alert('Empate! 😱 estuvo bastante reñido.');
             } else if (puntosComputadora > 21) {
-                alert('Ganaste! Muy bien hecho. 👏👏')
+                alert('Ganaste! Muy bien hecho. 👏👏');
             } else {
                 alert('Perdiste! Mejor suerte para la próxima mi rey. 😁😁 att: La PC 😏');
             }
